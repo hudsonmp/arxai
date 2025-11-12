@@ -40,15 +40,16 @@ wheels/
 arxai_output.log
 full_run.log
 
-# PDFs (now stored in Supabase)
-*.pdf
+# PDFs
 fallback/*.pdf
 annotated_pdfs/
 pdfs/
+papers/*.pdf
 
 # Data
 quality_cache.json
 *.json
+.arxai/
 
 # OS
 .DS_Store

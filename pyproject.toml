@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxai"
+version = "0.1.0"
+description = "Deep research assistant using citation graph traversal"
+authors = [{name = "Hudson Mitchell-Pullman"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.32.0",
+    "PyMuPDF>=1.24.0",
+    "numpy>=1.24.0",
+]
+
+[project.scripts]
+arxai = "main:main"
+
+[tool.setuptools]
+py-modules = ["main", "search", "api", "cache", "download"]
+
