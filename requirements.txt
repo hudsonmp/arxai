@@ -1,12 +1,4 @@
-fastapi==0.115.0
-uvicorn==0.32.0
-requests==2.32.3
-PyMuPDF==1.24.13
-pinecone-client==5.0.1
-python-dotenv==1.0.1
-pydantic==2.9.2
-aiohttp==3.9.1
-supabase>=2.0.0
-anthropic==0.39.0
-websockets>=13.0,<14.0
+requests>=2.32.0
+PyMuPDF>=1.24.0
+numpy>=1.24.0
 
